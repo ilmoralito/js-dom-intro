@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+label {
+    display: block;
+}
+
+.group {
+    margin-bottom: 10px;
+}
+
+.site-part,
+.form-part {
+    flex: 1;
+}
+
+.site-part {
+    background-color: #dfcbbb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-part .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
